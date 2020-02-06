@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Code Caddie</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <script src="javascript.js"></script>
+</head>
+<body >
+<header> <h2>Code Caddy</h2> </header>
+
+<section > 
+  <nav>     
+      <div class="bs-example" >
+          <!--Header intro section -  Code Caddy-->
+          <div class="panel-group" id="accordion" style="height:100%"> 
+              <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#codeCaddy">What is Code Caddy?</a>
+                      </h4>
+                  </div>
+              </div>
+
+              <!-- Variables - Data Structures-->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#variables">Variables</a>
+                        </h4>
+                    </div>                  
+                </div>
+
+                <!-- Collections - Data Structures-->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collections">Collections</a>
+                        </h4>
+                    </div>                  
+                </div>
+
+
+                <!-- Conditional Logic - Choices made by code-->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#conditionalLogic">Conditonal Logic</a>
+                        </h4>
+                    </div>                  
+                </div>
+
+                <!--Loops-->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#forLoops">Loops</a>
+                        </h4>
+                    </div>                  
+                </div>
+    
+                <!-- Methods -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#methods">Methods</a>
+                        </h4>
+                    </div>                  
+                </div>
+              
+                <!-- Output -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#output">Ouput</a>
+                        </h4>
+                    </div>                  
+                </div>
+
+            </div>
+        </div>
+             
+              
+          
+        <p><strong>Note:</strong> Click on the linked heading text to expand or collapse various Code Caddy panels.</p>
+      </div>
+  </nav>
+
+  <div class="content">
+    <article style="Height:100%">      
+        <!--Code Caddy-->
+        <div id="codeCaddy" class="panel-collapse collapse in" >
+            <div class="panel-body">
+                <p>
+                    Code Caddy is a tool built to give you quick code snippets for commonly used programming concepts. 
+                    If you need a variable, for loop, or class, you can simply click a link, find the code, and select / copy to clipboard. 
+                    This project is desisined to make programming for the beginner faster, and simple. 
+                    </p>
+            </div>
+        </div>
+
+        <!--Variables / Data Structures-->
+        <div id="variables" class="panel-collapse collapse" style="height:50%">
+            <div class="panel-body">
+                <h4>Variables</h4>
+                <p>Char</p> 
+                <pre><code>char var = 'A';</code></pre>
+                <p>int</p> 
+                <pre><code>int var = 0;</code></pre>
+                <p>double</p> 
+                <pre><code>double var = 0.0;</code></pre>
+                <p>String</p> 
+                <pre><code>String var = "";</code></pre>
+                <p>boolean</p> 
+                <pre><code>boolean var = false;</code></pre>
+            </div>
+        </div>
+
+        <!--Collections / Data Structures-->
+        <div id="collections" class="panel-collapse collapse" style="height:50%">
+            <div class="panel-body">               
+                <h4>Arrays</h4>
+                <p>char </p> 
+                <pre><code>char[] var = new char[1];</code></pre>
+                <p>int </p> 
+                <pre><code>int[] var = new int[1];</code></pre>
+                <p>double </p> 
+                <pre><code>double[] var = new double[1];</code></pre>
+                <p>String </p> 
+                <pre><code>String[] var = new String[1];</code></pre>
+                <p>boolean </p> 
+                <pre><code>boolean[] var = new boolean[1];</code></pre>
+
+                <br><br>
+                <h4>ArrayList</h4>
+                <p>char</p> 
+                <pre><code>ArrayList&lt;char&gt; list = new ArrayList&lt;char&gt;();</code></pre>
+                <p>int</p> 
+                <pre><code>ArrayList&lt;int&gt; list = new ArrayList&lt;int&gt;();</code></pre>
+               
+                <p>double</p> 
+                <pre><code>ArrayList&lt;double&gt; list = new ArrayList&lt;double&gt;();</code></pre>
+                <p>String</p> 
+                <pre><code>ArrayList&lt;String&gt; list = new ArrayList&lt;String&gt;();</code></pre>
+                <p>boolean</p> 
+                <pre><code>ArrayList&lt;boolean&gt; list = new ArrayList&lt;boolean&gt;();</code></pre>
+               
+                
+                <br><br>
+                <h4>List</h4>
+                <pre><code>List list = new List();</code></pre>
+            </div>
+        </div>
+
+
+        <!--Conditional Logic-->      
+        <div id="conditionalLogic" class="panel-collapse collapse" style="height:50%">
+                <div class="panel-body">
+                        <h4>Conditional Logic</h4>
+    <!--If statement-->
+    <p>If Statement</p> 
+    <pre>
+    <code>
+    if()
+    {
+
+    }
+    </code>
+    </pre>
+
+    <!--If/else statement-->
+    <p>If / else Statement</p> 
+    <pre>
+    <code>
+    if()
+    {
+
+    }
+    else
+    {
+
+    }
+    </code>
+    </pre>
+    <!--If/ if else / else statement-->
+    <p>If / if else / else Statement</p> 
+    <pre>
+    <code>
+    if()
+    {
+    
+    }
+    else if()
+    {
+    
+    }
+    else{
+    
+    }
+    </code>
+    </pre>
+
+    
+
+
+        </div>
+        </div>
+         <!--Loops-->
+         <div id="forLoops" class="panel-collapse collapse">
+<div class="panel-body">
+<h4>Loops</h4>
+<p>for loop</p> 
+<pre
+><code>  
+    for(int x=0; x<10; x++)
+    {
+
+    }
+</code>
+</pre>
+
+<p>enhanced for loop</p> 
+<pre>
+<code>  
+    for(Datatype d: someCollectionOrList)
+    {
+    
+    }
+</code>
+</pre>
+
+<p>while loop</p> 
+<pre>
+<code>  
+    while( someConditionGoesHere )
+    {
+    
+    }
+</code>
+</pre>
+
+<p>do while loop</p> 
+<pre>
+<code>  
+    do{
+        //stuff goes here
+    }
+    while( someConditionGoesHere );
+</code>
+</pre>
+
+
+
+
+
+</div>
+        </div>
+ 
+        <!--Methods-->
+        <div id="methods" class="panel-collapse collapse" style="height:50%">
+            <div class="panel-body">
+                <h4>Methods</h4>
+<p>Constructor</p> 
+<pre
+><code>
+    public ClassName()
+    {
+    
+    }
+</code>
+</pre>
+
+<p>void</p> 
+<pre
+><code>
+    public void method()
+    {
+    
+    }
+</code>
+</pre>
+
+<p>void with argument</p> 
+<pre
+><code>
+    public void method(String value)
+    {
+    
+    }
+</code>
+</pre>
+
+<p>method with return type int</p> 
+<pre
+><code>
+    public int method()
+    {
+        return 0;
+    }
+</code>
+</pre>
+
+<p>method with return type int and 1 argument</p> 
+<pre
+><code>
+    public int method(int value)
+    {
+        return value;
+    }
+</code>
+</pre>
+            </div>
+        </div>
+
+        <!--Output-->
+        <div id="output" class="panel-collapse collapse" style="height:50%">
+            <div class="panel-body">
+                <h4>Output to console</h4>
+                <p>Output</p> 
+                <pre><code>System.out.println("");</code></pre>        
+            </div>
+        </div>
+
+
+
+    </article>
+  </div>
+</section>
+
+
+<footer>
+<p>Created by: Bryan Irwin</p>    
+<div class="email">Email: <a href="mailto:irwinaz@yahoo.com">irwinAZ@yahoo.com</a><br></div>
+</footer>
+</body>
+</html>
